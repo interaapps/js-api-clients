@@ -1,0 +1,41 @@
+{
+  "name": "@interaapps/punyshort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@interaapps/base-client": "workspace:*"
+  },
+  "keywords": [],
+  "author": "Julian Gojani",
+  "license": "MIT",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "node": "./dist/index.mjs",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "node": "./dist/index.js",
+        "default": "./dist/index.js"
+      },
+      "default": "index.ts"
+    }
+  },
+  "unpkg": "dist/index.global.js",
+  "jsdelivr": "dist/index.global.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interaapps/js-clients.git"
+  },
+  "files": [
+    "dist/",
+    "package.json"
+  ]
+}
