@@ -21,6 +21,7 @@ const client = new PastefyClient('api-token')
 const paste = await client.getPaste('...')
 ```
 
+---
 ## Accounts
 
 ```bash
@@ -35,21 +36,7 @@ const client = new AccountsClient('api-token')
 
 const currentUser = await client.getCurrentUser('...')
 ```
-
-## Accounts
-
-```bash
-npm i @interaapps/accounts
-```
-
-### Usage
-
-```javascript
-import { AccountsClient } from '@interaapps/accounts';
-const client = new AccountsClient('api-token')
-
-const currentUser = await client.getCurrentUser('...')
-```
+---
 ## Punyshort
 
 ```bash
@@ -65,7 +52,7 @@ const client = new PunyshortClient('api-token')
 const shortenLink = await client.shortenLink('...')
 ```
 
-
+---
 ## Example: Login in browser and access pastefy pastes
 
 ```bash
