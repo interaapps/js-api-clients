@@ -52,7 +52,7 @@ workspaces.forEach((pkg) => {
             pkgJson.license = "MIT"
             pkgJson.repository = {
                 "type": "git",
-                "url": "git+https://github.com/interaapps/js-clients.git"
+                "url": "git+https://github.com/interaapps/js-api-clients.git"
             };
             pkgJson.files = [
                 "dist/",

@@ -21,7 +21,7 @@ npm install @interaapps/pastefy
 ## 📦 Usage
 
 ```ts
-import { PastefyClient } from '@interaapps/pastefy-client';
+import { PastefyClient } from '@interaapps/pastefy';
 
 const client = new PastefyClient('YOUR_API_KEY');
 

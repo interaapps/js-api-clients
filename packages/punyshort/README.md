@@ -18,7 +18,7 @@ A TypeScript client library for interacting with the [Punyshort](https://punysho
 ## 📦 Installation
 
 ```bash
-npm install @interaapps/punyshort-client
+npm install @interaapps/punyshort
 ````
 
 ---
@@ -26,7 +26,7 @@ npm install @interaapps/punyshort-client
 ## 🚀 Getting Started
 
 ```ts
-import { PunyshortClient } from '@interaapps/punyshort-client';
+import { PunyshortClient } from '@interaapps/punyshort';
 
 const client = new PunyshortClient('your-api-token');
 

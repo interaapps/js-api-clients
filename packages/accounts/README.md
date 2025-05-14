@@ -28,7 +28,7 @@ npm install @interaapps/accounts
 ### Initialize the client:
 
 ```ts
-import { AccountsClient } from '@interaapps/accounts-client';
+import { AccountsClient } from '@interaapps/accounts';
 
 const client = new AccountsClient('YOUR_API_TOKEN');
 
@@ -42,7 +42,7 @@ client.setApiToken('YOUR_API_TOKEN');
 ## 🔐 Authentication
 
 ```ts
-import { LoginRequest } from '@interaapps/accounts-client';
+import { LoginRequest } from '@interaapps/accounts';
 
 const authKey = await client.login({
   name: 'your-username',
@@ -84,7 +84,7 @@ await client.createProjectApp(project.id, {
 ### Create a URL for OAuth2 login:
 
 ```ts
-import { InteraAppsOAuth2Client } from '@interaapps/accounts-client';
+import { InteraAppsOAuth2Client } from '@interaapps/accounts';
 
 const oauthClient = new InteraAppsOAuth2Client(
   'your-client-id',
