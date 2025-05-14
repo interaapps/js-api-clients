@@ -1,5 +1,11 @@
 # InteraApps JS API Clients
 
+## Packages
+- [@interaapps/accounts](https://npmjs.com/package/@interaapps/accounts)
+- [@interaapps/pastefy](https://npmjs.com/package/@interaapps/pastefy)
+- [@interaapps/punyshort](https://npmjs.com/package/@interaapps/punyshort)
+- _(Internal) [@interaapps/base-client](https://npmjs.com/package/@interaapps/accounts)_
+
 ## Example: Login in browser and access pastefy pastes
 
 ```bash

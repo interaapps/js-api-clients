@@ -56,7 +56,8 @@ workspaces.forEach((pkg) => {
             };
             pkgJson.files = [
                 "dist/",
-                "package.json"
+                "package.json",
+                "README.md"
             ]
         }
 

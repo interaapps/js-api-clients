@@ -1,0 +1,1 @@
+# Base-client for interaapps api clients
